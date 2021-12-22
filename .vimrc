@@ -28,6 +28,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'dracula/vim'
 Plugin 'joshdick/onedark.vim'
+Plugin 'tomasr/molokai'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'SirVer/ultisnips'
@@ -42,8 +43,8 @@ Plugin 'vim-airline/vim-airline'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" CocInstall coc-clangd coc-java coc-python coc-rls coc-html coc-rome 
-" CocInstall coc-tsserver
+" CocInstall coc-clangd coc-java coc-python coc-html coc-rome 
+" CocInstall coc-tsserver coc-rust-analyzer coc-deno
 
 " color schemes
 if (has("termguicolors"))
@@ -53,6 +54,7 @@ syntax enable
 " colorscheme evening
 " colorscheme dracula
 colorscheme onedark
+" colorscheme molokai
 " colorscheme codedark
 " open new split panes to right and below
 set splitright
@@ -272,7 +274,7 @@ if has('nvim')
     tnoremap <C-j> <C-d><C-\><C-n>:q<CR>   
     tnoremap <Esc> <C-\><C-n>   
     " open terminal to the bottom
-    " noremap <C-j> :sp<bar>resize8<bar>set nonumber<bar>term<CR>i
+    noremap <C-j> :sp<bar>resize10<bar>set nonumber<bar>term<CR>i
     " open terminal to the side
-    noremap <C-j> :vsp<bar>set nonumber<bar>term<CR>i
+    " noremap <C-j> :vsp<bar>set nonumber<bar>term<CR>i
 endif

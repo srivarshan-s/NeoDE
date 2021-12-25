@@ -40,6 +40,7 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'raimondi/delimitmate'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'psliwka/vim-smoothie'
 call vundle#end()            " required
 filetype plugin indent on    " required
 

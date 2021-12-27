@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/run/media/sri/OS/Users/sriva/Desktop/Sem 5/Java/Lab/Lab 14/one_1078'

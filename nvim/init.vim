@@ -275,7 +275,7 @@ if has('nvim')
     tnoremap <C-j> <C-d><C-\><C-n>:q<CR>   
     tnoremap <Esc> <C-\><C-n>   
     " open terminal to the bottom
-    noremap <C-j> :sp<bar>resize10<bar>set nonumber<bar>term<CR>i
+    " noremap <C-j> :sp<bar>resize10<bar>set nonumber<bar>term<CR>i
     " open terminal to the side
-    " noremap <C-j> :vsp<bar>set nonumber<bar>term<CR>i
+    noremap <C-j> :vsp<bar>set nonumber<bar>term<CR>i
 endif
